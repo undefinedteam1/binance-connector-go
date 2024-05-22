@@ -101,6 +101,8 @@ type CoinInfo struct {
 		SameAddress             bool   `json:"sameAddress"`
 		EstimatedArrivalTime    uint64 `json:"estimatedArrivalTime"`
 		Busy                    bool   `json:"busy"`
+		ContractAddressUrl	string `json:"contractAddressUrl"`
+		ContractAddress		string `json:"contractAddress"`
 	} `json:"networkList"`
 	Storage           string `json:"storage"`
 	Trading           bool   `json:"trading"`
