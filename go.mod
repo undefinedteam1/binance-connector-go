@@ -1,4 +1,4 @@
-module github.com/undefinedteam1/binance-connector-go
+module github.com/binance/binance-connector-go
 
 go 1.19
 
@@ -16,3 +16,6 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+
+replace github.com/binance/binance-connector-go => github.com/undefinedteam1/binance-connector-go v3.2.1
