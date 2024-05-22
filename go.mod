@@ -1,4 +1,4 @@
-module binance-connector-go
+module github.com/undefinedteam1/binance-connector-go
 
 go 1.19
 
